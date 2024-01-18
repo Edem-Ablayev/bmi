@@ -1,8 +1,8 @@
 public class BmiService {
-    public double calculate(int m, double h) {
+    public double calculate(int mass, double height) {
         double result;
-        double i = Math.pow(h, 2);
-        result = m / i;
+        double squaring = Math.pow(height, 2);
+        result = mass / squaring;
         return result;
     }
 }
